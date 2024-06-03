@@ -1,5 +1,3 @@
-
-````markdown
 # Loyalty Points Management Service
 
 This project is a Next.js application for managing loyalty points. It includes various pages for creating projects and managing points.
@@ -28,7 +26,6 @@ To run the application locally:
    ```bash
    npm install
    ```
-````
 
 3. Start the development server:
 
