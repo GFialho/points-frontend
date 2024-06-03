@@ -1,6 +1,6 @@
 # Loyalty Points Management Service
 
-This project is a Next.js application for managing loyalty points. It includes various pages for creating projects and managing points.
+This project is a Next.js application for managing loyalty points. It includes various pages for creating projects and managing points. The website is available on: https://points-frontend-challenge-gfialho.vercel.app/project
 
 ## Pages
 
@@ -33,7 +33,7 @@ To run the application locally:
    npm run dev
    ```
 
-4. Open your browser and navigate to [https://points-frontend-challenge-gfialho.vercel.app/project](https://points-frontend-challenge-gfialho.vercel.app/project) to view the application.
+4. Open your browser to view the application.
 
 ## Dependencies
 
