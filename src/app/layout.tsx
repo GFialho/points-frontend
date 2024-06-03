@@ -45,7 +45,7 @@ export default function RootLayout({
                   </Link>
                 </div>
                 <QueryClientProvider client={queryClient}>
-                  <div className="mt-6">{children}</div>
+                  <div className="mt-6 w-[420px]">{children}</div>
                 </QueryClientProvider>
               </div>
             </div>
