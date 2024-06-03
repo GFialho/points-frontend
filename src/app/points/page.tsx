@@ -56,6 +56,13 @@ export default function Points() {
       return;
     }
 
+    if (!amount) {
+      setShowToast(true);
+      setToastMessage("Amount must be higher than 0");
+      setToastType("error");
+      return;
+    }
+
     try {
       setIsLoading(true);
       console.log({ address, amount, eventName });
@@ -113,7 +120,7 @@ export default function Points() {
           defaultValue={apiKey}
           value={apiKey}
           onChange={(event) => setApiKey(event.target.value)}
-          className="rounded-md shadow-md text-center font-bold text-sm"
+          className="rounded-md shadow-md text-center font-bold text-md"
         />
       </div>
       {apiType === "get" && (
@@ -126,7 +133,7 @@ export default function Points() {
               defaultValue={eventName}
               value={eventName}
               onChange={(event) => setEventName(event.target.value)}
-              className="rounded-md shadow-md text-center font-bold text-2xl"
+              className="rounded-md shadow-md text-center font-bold text-md"
             />
           </div>
           <div className="flex flex-col py-1">
@@ -137,7 +144,7 @@ export default function Points() {
               defaultValue={address}
               value={address}
               onChange={(event) => setAddress(event.target.value)}
-              className="rounded-md shadow-md text-center font-bold text-lg"
+              className="rounded-md shadow-md text-center font-bold text-md px-2"
             />
           </div>
 
@@ -173,7 +180,7 @@ export default function Points() {
               defaultValue={address}
               value={address}
               onChange={(event) => setAddress(event.target.value)}
-              className="rounded-md shadow-md text-center font-bold text-xl"
+              className="rounded-md shadow-md text-center font-bold text-ms"
             />
           </div>
           <div className="flex flex-col py-1">
@@ -184,7 +191,7 @@ export default function Points() {
               defaultValue={eventName}
               value={eventName}
               onChange={(event) => setEventName(event.target.value)}
-              className="rounded-md shadow-md text-center font-bold text-2xl"
+              className="rounded-md shadow-md text-center font-bold text-ms"
             />
           </div>
           <p className="font-bold self-center py-1">Amount</p>
