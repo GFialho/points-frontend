@@ -1,4 +1,3 @@
-Sure, here's a README file for a Next.js service with the provided pages:
 
 ````markdown
 # Loyalty Points Management Service
