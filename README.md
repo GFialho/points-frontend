@@ -37,7 +37,7 @@ To run the application locally:
    npm run dev
    ```
 
-4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+4. Open your browser and navigate to [https://points-frontend-challenge-gfialho.vercel.app/project](https://points-frontend-challenge-gfialho.vercel.app/project) to view the application.
 
 ## Dependencies
 
